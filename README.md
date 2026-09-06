@@ -90,13 +90,14 @@ python -m pytest tests/ -v
 
 | Part / Feature Area | Hours Spent | Key Tasks Completed |
 |---|---|---|
-| **Data Modeling & Seed Normalization** | ~2.5 hours | Schema design (Shows, Seasons, Episodes, Artworks, PublishRun), handling content groups, language variants, and seed issue reporting. |
-| **Publish Pipeline & Atomicity** | ~2.5 hours | Validation engine, snapshot builder, atomic `os.replace` file writing, audit logs. |
-| **Backend API & Storage Abstraction** | ~2.0 hours | Storage interface (`LocalStorage` & `R2Storage`), video streaming with HTTP Range support, role-gated routes. |
-| **Admin CMS Portal (React + Vite)** | ~2.5 hours | Show editor, artwork upload validation feedback, episode listing, 1-click publish flow. |
-| **Consumer Viewer App (React + Vite)** | ~2.0 hours | Hero video banner, section carousels, search & filter interface, HTML5 video player modal. |
-| **Testing, CI & Documentation** | ~1.5 hours | Pytest automated test suite, GitHub Actions workflow (`ci.yml`), comprehensive README. |
-| **Total** | **~13.0 hours** | |
+| **Data Modeling & Seed Normalization** | ~5.0 hours | Schema design (Shows, Seasons, Episodes, Artworks, PublishRun), handling content groups, language variants, and seed issue reporting. |
+| **Publish Pipeline & Atomicity** | ~4.5 hours | Validation engine, snapshot builder, atomic `os.replace` file writing, audit logs. |
+| **Backend API & Storage Abstraction** | ~4.0 hours | Storage interface (`LocalStorage` & `R2Storage`), video streaming with HTTP Range support, role-gated routes. |
+| **Admin CMS Portal (React + Vite)** | ~4.5 hours | Show editor, artwork upload validation feedback, episode listing, 1-click publish flow. |
+| **Consumer Viewer App (React + Vite)** | ~3.5 hours | Hero video banner, section carousels, search & filter interface, HTML5 video player modal. |
+| **Testing, CI & Documentation** | ~2.5 hours | Pytest automated test suite, GitHub Actions workflow (`ci.yml`), comprehensive README. |
+| **Total** | **~24.0 hours** | |
+
 
 ---
 
