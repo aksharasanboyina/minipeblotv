@@ -1,0 +1,9 @@
+# Lint config for the backend. Rules are pinned to the classic default set
+# (pycodestyle errors + pyflakes) plus import sorting; the modern "upgrade"
+# style rules (UP/BLE/...) and FastAPI's standard Depends()-in-default-arg
+# pattern (B008) are intentionally not enabled here.
+line-length = 120
+
+[lint]
+select = ["E4", "E7", "E9", "F", "I"]
+ignore = ["E501"]
